@@ -1,0 +1,211 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    fontweight: 400;
+    line-height: 1.6;
+    background-size: cover;
+    color: #4b4a4a ;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #3f3e3e;
+    min-height: 100vh;
+    display: flex;
+}
+
+
+.myData {
+
+    background-color: #e2fff6;
+    flex: 1;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+
+
+}
+
+.myPic {
+    background-image: url("Group 27.png");
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    height:15rem;
+    width: 15rem;
+    background-size: cover;
+
+
+
+}
+
+.myData__myDreams--numbers {
+    list-style-position: inside;
+}
+
+.myData__head-line {
+    font-size: 4rem;
+
+}
+
+.myData__myTitle {
+    font-size: 4rem;
+    flex: 0 0 0;
+}
+
+.myData__myName {
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.myData__myDreams--header {
+    border: 1px solid black;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 4rem 0;
+}
+
+.myData__myDreams--numbers {
+    margin-left: 6rem;
+    font-size: 2rem;
+    line-height: 6rem;
+}
+
+
+.myData__myStats-header {
+    border: 1px solid black;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 4rem 0;
+
+}
+
+.sidebar {
+    flex: 0 0 18%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: white;
+
+}
+
+.sidebar__header {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    flex: 0 0 2rem;
+}
+
+.sidebar__list {
+    font-size: 1.5rem;
+    text-decoration: none;
+    line-height: 5rem;
+    list-style-position: inside;
+
+}
+
+
+.sidebar__link:link
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sidebar__link:visited{
+    color: #16ffb6;
+}
+
+
+.blackTable {
+
+    background-color: #fcfcfc;
+    width: 100%;
+    text-align: left;
+
+
+}
+
+.divTable.blackTable .divTableCell, .divTable.blackTable .divTableHead {
+    border: 1px solid #000000;
+    padding: 3px 2px;
+
+}
+
+.divTable.blackTable .divTableBody .divTableCell {
+    font-size: 13px;
+}
+
+.divTable.blueTable .divTableRow:nth-child(even) {
+    background: #ffd4dd;
+
+}
+
+.divTable.blackTable .divTableHeading {
+    background: #0e0d0d;
+
+}
+
+.divTable.blackTable .divTableHeading .divTableHead {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+
+}
+
+.divTable {
+    display: table;
+}
+
+.divTableRow {
+    display: table-row;
+
+}
+
+.divTableHeading {
+    display: table-header-group;
+    text-align: center;
+}
+
+.divTableCell, .divTableHead {
+    display: table-cell;
+
+}
+
+.divTableHeading {
+    display: table-header-group;
+}
+
+.divTableFoot {
+    display: table-footer-group;
+}
+
+.divTableBody {
+    display: table-row-group;
+}
